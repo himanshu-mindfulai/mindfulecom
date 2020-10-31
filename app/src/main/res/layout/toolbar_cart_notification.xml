@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ru.nikartm.support.ImageBadgeView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/notification_badge"
+    android:layout_width="24dp"
+    android:layout_height="24dp"
+    android:layout_gravity="center"
+    android:src="@drawable/ic_cart"
+    app:ibv_badgeColor="@android:color/holo_red_light"
+    app:ibv_badgePadding="5dp"
+    app:ibv_badgeTextSize="8sp"
+    app:ibv_badgePosition="top_right"
+    app:ibv_badgeValue="0" />

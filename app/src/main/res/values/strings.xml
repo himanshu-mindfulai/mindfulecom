@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">iamsuperstore</string>
+
+    <string name="token_expired">Token Expired</string>
+    <string name="server_down">Server Down</string>
+    <string name="no_internet">No Internet</string>
+    <string name="set_your_profile">SET YOUR PROFILE</string>
+    <string name="please_wait">Please wait ...</string>
+    <string name="please_wait_verifying_otp">Please wait verifying OTP...</string>
+    <string name="rs">\u20B9</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="notifications">Notifications</string>
+    <string name="account">Account</string>
+    <string name="orderHistory">Order History</string>
+    <string name="home">Home</string>
+    <string name="open">Drawer Open</string>
+    <string name="closed">Drawer Closed</string>
+    <string name="server_client_id">440604768939-qiog9djg90lvvjsr84f9jpu2f5jd6nml.apps.googleusercontent.com</string>
+    <string name="sign_in_to_continue">Sign in to Continue</string>
+    <string name="enter_email_here">Enter email here</string>
+    <string name="enter_password_here">Enter password here</string>
+    <string name="about_us">About Us</string>
+    <string name="help_and_feedback">Help and Feedback</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="terms_and_conditions">Terms and Condition</string>
+    <string name="faq">FAQ</string>
+    <string name="others_labels">Other label</string>
+    <string name="order_will_be_delivered">Your order will be delivered between</string>
+    <string name="title_activity_wallet">WalletActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="map_activity_tv_placeholder">Loading...</string>
+
+    <string-array name="steps_order">
+        <item>Placed</item>
+        <item>Packed</item>
+        <item>Dispatch</item>
+        <item>Delivered</item>
+    </string-array>
+
+</resources>

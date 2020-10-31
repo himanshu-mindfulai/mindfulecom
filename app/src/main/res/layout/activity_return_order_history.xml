@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mindfulai.Activites.ReturnOrderHistoryActivity">
+
+    <TextView
+        android:id="@+id/tv_select_items"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|start"
+        android:padding="20dp"
+        android:text="Order items"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_below="@+id/tv_select_items"
+        android:layout_above="@id/bt_return_order"
+        android:id="@+id/rv_products"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="10dp">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <Button
+        android:layout_alignParentBottom="true"
+        android:id="@+id/bt_return_order"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_background"
+        android:text="Return"
+        android:textColor="@color/colorWhite" />
+
+</RelativeLayout>

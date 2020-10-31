@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_nav"
+    app:startDestination="@+id/navigation_home">
+
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.mindfulai.ui.HomeFragment"
+        android:label="@string/home"
+        tools:layout="@layout/fragment_home" />
+
+
+    <fragment
+        android:id="@+id/navigation_wishlist"
+        android:name="com.mindfulai.ui.WishListFragment"
+        android:label="WishList"
+        tools:layout="@layout/fragment_wishlist" />
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="com.mindfulai.ui.NotificationsFragment"
+        android:label="@string/notifications"
+        tools:layout="@layout/fragment_notifications" />
+
+    <fragment
+        android:id="@+id/navigation_account"
+        android:name="com.mindfulai.ui.AccountFragment"
+        android:label="@string/account"
+        tools:layout="@layout/account_fragment" />
+
+    <fragment
+        android:id="@+id/navigation_cart"
+        android:name="com.mindfulai.ui.CartFragment"
+        android:label="@string/orderHistory"
+        tools:layout="@layout/fragment_cart" />
+
+</navigation>

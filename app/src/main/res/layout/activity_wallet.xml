@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mindfulai.Activites.WalletActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/wallet_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="32dp"
+            android:layout_marginHorizontal="16dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardElevation="6dp"
+            app:cardCornerRadius="15dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingVertical="28dp"
+                android:paddingHorizontal="28dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Your balance"
+                    android:textSize="16sp"
+                    android:textColor="@color/et_text_color_darkgrey"/>
+
+                <TextView
+                    android:id="@+id/tv_wallet_balance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="\u20B9"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_alignParentRight="true"/>
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/wallet_header"
+            android:paddingHorizontal="16dp"
+            android:layout_marginTop="32dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Topup your account"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:textColor="@color/et_text_color_darkgrey"/>
+
+            <EditText
+                android:id="@+id/et_enter_amount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter amount"
+                android:drawableLeft="@drawable/rupee"
+                android:drawablePadding="3dp"
+                android:layout_marginTop="32dp"
+                android:inputType="number"
+                android:textSize="17sp"
+                android:textColorHint="@color/et_text_color_darkgrey"
+                android:textColor="@color/et_text_color_darkgrey"/>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cv_suggested_amount_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="90dp"
+                android:layout_marginBottom="5dp"
+                app:cardBackgroundColor="#dcdcdc"
+                app:cardCornerRadius="5dp">
+
+                <TextView
+                    android:id="@+id/tv_suggested_amount_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="\u20B9 10"
+                    android:textSize="17sp"
+                    android:textColor="@color/black"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginVertical="5dp"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_centerHorizontal="true">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cv_suggested_amount_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="90dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginRight="20dp"
+                    app:cardBackgroundColor="#dcdcdc"
+                    app:cardCornerRadius="5dp">
+
+                    <TextView
+                        android:id="@+id/tv_suggested_amount_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="\u20B9 50"
+                        android:textSize="17sp"
+                        android:textColor="@color/black"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_marginVertical="5dp"/>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cv_suggested_amount_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginTop="90dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="20dp"
+                    app:cardBackgroundColor="#dcdcdc"
+                    app:cardCornerRadius="5dp">
+
+                    <TextView
+                        android:id="@+id/tv_suggested_amount_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="\u20B9 100"
+                        android:textSize="17sp"
+                        android:textColor="@color/black"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_marginVertical="5dp"/>
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cv_suggested_amount_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="90dp"
+                android:layout_marginBottom="5dp"
+                app:cardBackgroundColor="#dcdcdc"
+                app:cardCornerRadius="5dp">
+
+                <TextView
+                    android:id="@+id/tv_suggested_amount_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="\u20B9 200"
+                    android:textSize="17sp"
+                    android:textColor="@color/black"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginVertical="5dp"/>
+
+            </androidx.cardview.widget.CardView>
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/btn_pay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="16dp"
+            android:backgroundTint="@color/colorGreen"
+            android:text="Pay"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:padding="16dp"/>
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

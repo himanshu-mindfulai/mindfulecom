@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.mindfulai.Activites.OrderPlacedActivity">
+<RelativeLayout
+    android:id="@+id/rv"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:layout_height="250dp">
+    <TextView
+        android:id="@+id/tnku"
+        android:layout_width="wrap_content"
+        android:text="Thank You"
+        android:textColor="@color/colorWhite"
+        android:layout_centerInParent="true"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:textColor="@color/colorWhite"
+        android:layout_below="@id/tnku"
+        android:textSize="14sp"
+        android:layout_centerHorizontal="true"
+        android:text="Your Order Has Been Placed Successfully"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_below="@id/rv"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:orientation="vertical"
+            android:gravity="center|end"
+            android:layout_weight="1"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Order Number"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Order Amount"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Payment Method"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Order Message\n"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/order_number"
+                android:layout_width="wrap_content"
+                android:text="RJ46780975HU"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/order_amount"
+                android:layout_width="wrap_content"
+                android:text="557.00"
+
+                android:textColor="@color/black"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/payment_method"
+                android:layout_width="wrap_content"
+                android:text="COD"
+                android:layout_marginTop="20dp"
+
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/order_message"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="20dp"
+
+                android:textColor="@color/black"
+                android:text="Thank you! your order has been placed successfully"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/done"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:padding="15dp"
+        android:text="Done"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:textColor="@color/colorWhite"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>

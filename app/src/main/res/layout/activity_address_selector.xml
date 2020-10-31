@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mindfulai.Activites.AddressSelectorActivity">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rv_addresses"
+        android:layout_marginBottom="60dp"/>
+
+    <LinearLayout
+        android:id="@+id/no_item_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:src="@drawable/noitem"
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No saved address found!"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/amaranth" />
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/bt_add_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add address"
+        android:textColor="@color/colorWhite"
+        android:textAllCaps="false"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="16dp"
+        android:background="@color/colorGreen"/>
+
+</RelativeLayout>

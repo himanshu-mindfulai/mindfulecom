@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/margin_medium">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <View
+            xmlns:fresco="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/image_cartlist"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:background="@color/viewLine_color"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_10sdp"
+                android:background="@color/viewLine_color"
+                android:text="Denim Shirt"
+                android:id="@+id/product_name"
+                android:textSize="@dimen/text_size_small"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_10sdp"
+                android:background="@color/viewLine_color"
+                android:id="@+id/product_description"
+                android:text="Slim fit, cotton"
+                android:textSize="@dimen/text_size_small" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:id="@+id/product_price"
+                android:background="@color/viewLine_color"
+                android:text="Rs. 8,999"
+
+                android:textColor="#4CAF50"
+                android:textSize="@dimen/text_size_xmedium" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_10sdp"
+                android:text="Delivery charge: FREE"
+                android:background="@color/viewLine_color"
+                android:textSize="@dimen/text_size_small" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_10sdp"
+                android:text="Qty: 1"
+                android:background="@color/viewLine_color"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:id="@+id/quantity"
+                android:textSize="@dimen/text_size_small" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        android:weightSum="2">
+
+        <LinearLayout
+            android:id="@+id/layout_remove"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_clear_black_18dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:text="Remove"
+                android:textColor="@color/colorBlack"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="@dimen/view_width_small"
+            android:layout_height="match_parent"
+            android:background="@color/viewLine_color" />
+
+        <LinearLayout
+            android:id="@+id/layout_edit"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_mode_edit_black_18dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:text="Edit"
+                android:textColor="@color/colorBlack"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/view_width_small"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/viewLine_color" />
+</LinearLayout>
+
