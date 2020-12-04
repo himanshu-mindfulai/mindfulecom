@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "805783570349",
+    "firebase_url": "https://courseinstitute-686c5.firebaseio.com",
+    "project_id": "courseinstitute-686c5",
+    "storage_bucket": "courseinstitute-686c5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:805783570349:android:32ed739a3cf6cc9b4a8324",
+        "android_client_info": {
+          "package_name": "com.edutech"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "805783570349-di91p35ovgtf5phe126e4fampu04962m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATfFZaD1u1ZujCVCQA81pr3L5tCfP0ZVA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "805783570349-di91p35ovgtf5phe126e4fampu04962m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:805783570349:android:1906c34d01587e164a8324",
+        "android_client_info": {
+          "package_name": "com.mindfulai.course"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "805783570349-ik59rf47b7u5v82n66o52lbhtb54jfj8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mindfulai.course",
+            "certificate_hash": "cb1c1b4f5265b9e6880b5981303268935d122493"
+          }
+        },
+        {
+          "client_id": "805783570349-di91p35ovgtf5phe126e4fampu04962m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATfFZaD1u1ZujCVCQA81pr3L5tCfP0ZVA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "805783570349-di91p35ovgtf5phe126e4fampu04962m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
